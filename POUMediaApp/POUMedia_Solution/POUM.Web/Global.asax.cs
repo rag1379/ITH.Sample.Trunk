@@ -16,6 +16,11 @@ namespace POUM.Web
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+
+            ////Initialse mappers for models.
+            //AutoMapperConfig.InitializeAutoMapper();
+
+            Bootstrapper.Initialise();
         }
     }
 }
