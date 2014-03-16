@@ -260,6 +260,10 @@
       <Project>{ddee42be-bd8c-4358-a9b2-4dd90610b117}</Project>
       <Name>ITH.Library</Name>
     </ProjectReference>
+    <ProjectReference Include="..\POUM.DataLayer\POUM.DataLayer.csproj">
+      <Project>{98181ea7-4a39-419a-a1a3-d50c86d0944a}</Project>
+      <Name>POUM.DataLayer</Name>
+    </ProjectReference>
     <ProjectReference Include="..\POUM.Entity\POUM.Entity.csproj">
       <Project>{fc1d0eb2-7ddb-4a7d-a58f-746f6758b314}</Project>
       <Name>POUM.Entity</Name>

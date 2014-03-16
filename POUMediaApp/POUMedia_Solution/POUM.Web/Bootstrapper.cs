@@ -7,6 +7,9 @@ using POUM.Entity;
 using POUM.Service;
 using POUM.Service.Interface;
 using POUM.Web.Controllers;
+using POUM.DataLayer;
+using POUM.DataLayer.Interface;
+ 
 
 
 namespace POUM.Web
@@ -45,7 +48,7 @@ namespace POUM.Web
 
 
         //Service Layer        
-        container.RegisterType<IMovieService, MovieService>();        
+        //container.RegisterType<IMovieService, MovieService>();        
         container.RegisterType<IImageDetailService, ImageDetailService>();
 
         ////Data Layer            
